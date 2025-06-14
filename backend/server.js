@@ -7,6 +7,7 @@ const userRoutes = require('./routes/userRoutes')
 
 
 const app = express();
+app.use(express.json()); // for parsing application/json
 dotenv.config();
 connectDB()
 app.get("/", (req, res) => {
