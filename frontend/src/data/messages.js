@@ -5,7 +5,7 @@ export const messages = [
     sender: {
       pic: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
       _id: "1",
-      name: "Piyush",
+      name: "danish",
     },
     content: "Hello There",
     chat: "60a3de1ff381d830b884998d",
@@ -47,7 +47,7 @@ export const messages = [
     sender: {
       pic: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
       _id: "1",
-      name: "Piyush",
+      name: "danish",
     },
     content: "All good!",
     chat: "60a3de1ff381d830b884998d",
@@ -61,7 +61,7 @@ export const messages = [
     sender: {
       pic: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
       _id: "1",
-      name: "Piyush",
+      name: "danish",
     },
     content: "What About You?",
     chat: "60a3de1ff381d830b884998d",
@@ -103,7 +103,7 @@ export const messages = [
     sender: {
       pic: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
       _id: "1",
-      name: "Piyush",
+      name: "danish",
     },
     content: "Just the MERN Stack",
     chat: "60a3de1ff381d830b884998d",
@@ -119,7 +119,7 @@ export const messages = [
       _id: "2",
       name: "John Doe",
     },
-    content: "From Roadside Coder?",
+    content: "From Danish Coder?",
     chat: "60a3de1ff381d830b884998d",
     createdAt: "2021-05-18T17:19:16.447Z",
     updatedAt: "2021-05-18T17:19:16.447Z",
@@ -131,7 +131,7 @@ export const messages = [
     sender: {
       pic: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
       _id: "60a281bc502ec30428fb6bb0",
-      name: "Piyush",
+      name: "danish",
     },
     content: "Yea boiii..",
     chat: "60a3de1ff381d830b884998d",
