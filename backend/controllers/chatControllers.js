@@ -48,9 +48,9 @@ const accessChat = asyncHandler(async (req, res) => {
     }
 });
 
-const featchChats = asyncHandler(async (res, req) => {
+const fetchChats = asyncHandler(async (req, res) => {
     try {
-        Chat.find({ $elemMatch: { users: { $eq: req.user._id } } })
+        Chat.find({ users: { $elemMatch: { $eq: req.user._id } } })
             .populate("users", "-password")
             .populate("groupAdmin", "-password")
             .populate("latestMessage")
@@ -61,11 +61,12 @@ const featchChats = asyncHandler(async (res, req) => {
                     select: "name pic email",
                 });
                 res.status(200).send(results);
-            })
+            });
     } catch (error) {
         res.status(400);
         throw new Error(error.message);
     }
-})
+});
 
-module.exports = { accessChat, featchChats }
+
+module.exports = { accessChat, fetchChats }
