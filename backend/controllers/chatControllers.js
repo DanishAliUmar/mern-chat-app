@@ -69,4 +69,6 @@ const fetchChats = asyncHandler(async (req, res) => {
 });
 
 
-module.exports = { accessChat, fetchChats }
+const createGroupChat = asyncHandler(async (req, res) => { });
+
+module.exports = { accessChat, fetchChats, createGroupChat }
