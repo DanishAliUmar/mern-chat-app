@@ -37,4 +37,8 @@ const sendMessage = asyncHandler(async (req, res) => {
     }
 })
 
-module.exports = { sendMessage }
+const allMessages = asyncHandler(async (req, res) => {
+    // Messages controler
+})
+
+module.exports = { sendMessage, allMessages }
