@@ -1,7 +1,7 @@
 const express = require("express");
 const {
-    allMessages,
-    sendMessage,
+  allMessages,
+  sendMessage,
 } = require("../controllers/messageControllers");
 const { protect } = require("../middleware/authMiddleware");
 
